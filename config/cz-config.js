@@ -32,7 +32,7 @@ module.exports = {
     { value: "WIP", name: "WIP:      Work in progress" },
   ],
 
-  scopes: [{ name: "cdk" }],
+  scopes: [{ name: "cdk" }, { name: "lambda-functions" },{ name: "lambda-layers" }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,

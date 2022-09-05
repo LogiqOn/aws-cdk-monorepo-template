@@ -12,7 +12,9 @@
   },
   "workspaces": [
     "packages/*",
-    "cdk"
+    "cdk",
+    "lambda/functions/*",
+    "lambda/layers/*"
   ],
   "devDependencies": {
     "@types/jest": "^28.1.3",
