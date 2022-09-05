@@ -169,5 +169,9 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-  watchPlugins: ['jest-watch-lerna-packages'],
+  watchPlugins: [
+    ['jest-watch-lerna-packages'],
+    ['jest-watch-toggle-config', { setting: 'verbose' }],
+    ['jest-watch-toggle-config', { setting: 'collectCoverage' }],
+  ],
 };
