@@ -1,10 +1,20 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "scripts": {
+    "commit": "./node_modules/cz-customizable/standalone.js"
+  },
   "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "^7.0.0",
     "lerna": "^5.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "cz-customizable": {
+      "config": "config/cz-config.js"
+    }
   }
 }
