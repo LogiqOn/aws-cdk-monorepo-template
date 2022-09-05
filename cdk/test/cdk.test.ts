@@ -1,5 +1,5 @@
 describe('Test something', () => {
-  it('SQS Queue Created', () => {
+  it('should be ....', () => {
     expect(true).toBeTruthy();
   });
 });
