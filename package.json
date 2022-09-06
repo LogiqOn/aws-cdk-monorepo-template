@@ -12,7 +12,7 @@
   },
   "workspaces": [
     "packages/*",
-    "cdk",
+    "infrastructure/cdk",
     "lambda/functions/*",
     "lambda/layers/*"
   ],

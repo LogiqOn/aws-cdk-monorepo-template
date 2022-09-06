@@ -103,7 +103,7 @@
   },
   "references": [
     {
-      "path": "cdk"
+      "path": "infrastructure/cdk"
     }
   ],
   "include": [""],

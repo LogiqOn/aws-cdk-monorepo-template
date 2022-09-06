@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "ES2018",
     "lib": ["es2018"],
@@ -16,7 +16,7 @@
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
-    "typeRoots": ["../node_modules/@types"]
+    "typeRoots": ["../../node_modules/@types"]
   },
   "exclude": ["node_modules", "cdk.out", "dist/**.*"]
 }

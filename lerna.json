@@ -2,6 +2,11 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
   "version": "independent",
-  "packages": ["packages/*", "cdk", "lambda/functions/*", "lambda/layers/*"],
+  "packages": [
+    "packages/*",
+    "infrastructure/cdk",
+    "lambda/functions/*",
+    "lambda/layers/*"
+  ],
   "npmClient": "yarn"
 }
