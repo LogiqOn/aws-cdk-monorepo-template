@@ -8,7 +8,8 @@
     "format": "prettier --check .",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "ncu": "ncu --deep"
+    "ncu": "ncu --deep",
+    "version:init:alpha": "lerna version 1.0.0-alpha.0"
   },
   "workspaces": [
     "packages/*",
