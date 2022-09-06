@@ -6,6 +6,7 @@
     "packages/*",
     "infrastructure/cdk",
     "infrastructure/stacks/*",
+    "infrastructure/constructs/*",
     "lambda/functions/*",
     "lambda/layers/*"
   ],
