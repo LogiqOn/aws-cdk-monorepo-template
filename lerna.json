@@ -10,7 +10,7 @@
     "lambda/functions/*",
     "lambda/layers/*"
   ],
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "version": {
       "message": "chore(release): publish %s"

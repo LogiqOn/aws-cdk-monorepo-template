@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const { execSync } = require('child_process');
+const { writeFileSync } = require('fs');
 
 const runCommand = (command) => {
   try {
@@ -20,6 +21,20 @@ const installDepsCommand = `cd ${repoName} && yarn install`;
 console.log(`Clonning the repository with name ${repoName}`);
 const checkOut = runCommand(gitCheckoutCommand);
 if (!checkOut) process.exit(-1);
+
+const deleteBinFolder = runCommand(`rm -rf ${repoName}/bin/`);
+if (!deleteBinFolder) process.exit(-1);
+
+const package = require('../package.json');
+
+package.private = true;
+package.name = repoName;
+package.version = '1.0.0';
+
+delete package.files;
+delete package.bin;
+
+writeFileSync(`${repoName}/package.json`, JSON.stringify(package, null, 2));
 
 console.log(`Installing dependencies for ${repoName}`);
 const installDeps = runCommand(installDepsCommand);
