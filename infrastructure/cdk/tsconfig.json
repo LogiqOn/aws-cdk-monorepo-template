@@ -18,7 +18,8 @@
     "strictPropertyInitialization": false,
     "typeRoots": ["../../node_modules/@types"]
   },
-  "exclude": ["node_modules", "cdk.out", "dist/*"],
+  "include": ["bin/*"],
+  "exclude": ["node_modules", "cdk.out", "dist/*", "test/*"],
   "references": [
     {
       "path": "../stacks/stack-example"
