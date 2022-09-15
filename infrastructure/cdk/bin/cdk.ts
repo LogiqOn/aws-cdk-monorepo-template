@@ -2,7 +2,7 @@
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 // import { CdkStack } from '../lib/example-stack';
-import { CdkStack } from '@logiqon/example-stack';
+import { CdkStack } from 'example-stack';
 
 const app = new cdk.App();
 new CdkStack(app, 'CdkStack', {

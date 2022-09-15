@@ -1,5 +1,5 @@
 {
-  "name": "@logiqon/example-stack",
+  "name": "example-stack",
   "version": "1.0.0-alpha.0",
   "private": true,
   "main": "./dist/index.js",
