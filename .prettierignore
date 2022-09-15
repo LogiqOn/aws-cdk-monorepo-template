@@ -2,3 +2,4 @@ config
 **/coverage/*
 **/dist/*
 **/*.md
+**/cdk.out

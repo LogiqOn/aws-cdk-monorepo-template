@@ -1,9 +1,12 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../../tsconfig.json",
   "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
     "target": "ES2018",
     "lib": ["es2018"],
-    "outDir": "./dist",
+    "outDir": "dist",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
@@ -16,13 +19,8 @@
     "inlineSources": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
-    "typeRoots": ["../../node_modules/@types"]
+    "typeRoots": ["../../../node_modules/@types"]
   },
-  "include": ["bin/*"],
-  "exclude": ["node_modules", "cdk.out", "dist/*", "test/*"],
-  "references": [
-    {
-      "path": "../stacks/stack-example"
-    }
-  ]
+  "exclude": ["dist/*", "test"],
+  "include": ["index.ts", "lib/*"]
 }
