@@ -32,6 +32,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "ncu": "ncu --deep",
+    "watch": "cd infrastructure/cdk && yarn watch",
+    "synth": "cd infrastructure/cdk && yarn cdk synth",
     "version:init:alpha": "lerna version 1.0.0-alpha.0 --yes"
   },
   "workspaces": [
