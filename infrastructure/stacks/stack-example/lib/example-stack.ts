@@ -14,7 +14,7 @@ export class CdkStack extends cdk.Stack {
       visibilityTimeout: cdk.Duration.seconds(500),
     }); */
     const queue = new CustomConstruct(this, 'CdkQue', {
-      queueName: 'Queue',
+      queueName: 'Queue v2',
       visibilityDuration: 500,
     });
   }
