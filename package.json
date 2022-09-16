@@ -7,6 +7,7 @@
     "prepare": "husky install",
     "lint": "eslint --ext .ts,.tsx",
     "format": "prettier --check .",
+    "lint-staged": "lint-staged",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "ncu": "ncu --deep",
