@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.3](https://github.com/amarquezperez/aws-cdk-monorepo-template/compare/example-construct@1.0.0-alpha.2...example-construct@1.0.0-alpha.3) (2022-09-16)
+
+
+### Features
+
+* **Construct:** add name of the queue ([a09a849](https://github.com/amarquezperez/aws-cdk-monorepo-template/commit/a09a8499884a94a63f4bbf01f665598b7041d801))
+
+
+
+
+
 # 1.0.0-alpha.1 (2022-09-16)
 
 
