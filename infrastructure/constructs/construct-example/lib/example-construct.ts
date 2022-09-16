@@ -14,7 +14,7 @@ export class CustomConstruct extends Construct {
     // The code that defines your stack goes here
 
     // example resource
-    const queue = new sqs.Queue(this, 'CdkQueue', {
+    const queue = new sqs.Queue(this, 'CdkQueuev2', {
       visibilityTimeout: cdk.Duration.seconds(props.visibilityDuration),
       queueName: props.queueName,
     });
