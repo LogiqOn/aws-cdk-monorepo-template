@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/amarquezperez/aws-cdk-monorepo-template/compare/example-stack@1.0.0...example-stack@1.1.0) (2022-09-16)
+
+
+### Features
+
+* **example-stack:** update queue config ([efb6cd0](https://github.com/amarquezperez/aws-cdk-monorepo-template/commit/efb6cd0f4adad9577a0bec2c1186602c38736872))
+
+
+
+
+
 # [1.0.0](https://github.com/amarquezperez/aws-cdk-monorepo-template/compare/example-stack@1.0.0-alpha.3...example-stack@1.0.0) (2022-09-16)
 
 **Note:** Version bump only for package example-stack

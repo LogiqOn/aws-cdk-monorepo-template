@@ -1,6 +1,6 @@
 {
   "name": "cdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "bin": {
     "cdk": "bin/cdk.js"
@@ -24,7 +24,7 @@
   "dependencies": {
     "aws-cdk-lib": "2.40.0",
     "constructs": "^10.1.94",
-    "example-stack": "^1.0.0",
+    "example-stack": "1.1.0",
     "source-map-support": "^0.5.21"
   }
 }
