@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/amarquezperez/aws-cdk-monorepo-template/compare/example-construct@1.1.0...example-construct@1.1.1) (2022-09-16)
+
+
+### Bug Fixes
+
+* **example-construct:** fiz name of queue stack ([51f85ed](https://github.com/amarquezperez/aws-cdk-monorepo-template/commit/51f85eddc46e4b17ae1238909f8d3bcccb34e964))
+
+
+
+
+
 # [1.1.0](https://github.com/amarquezperez/aws-cdk-monorepo-template/compare/example-construct@1.0.0...example-construct@1.1.0) (2022-09-16)
 
 
