@@ -13,6 +13,9 @@ export class CdkStack extends cdk.Stack {
     /* const queue = new sqs.Queue(this, 'CdkQueue', {
       visibilityTimeout: cdk.Duration.seconds(500),
     }); */
-    const queue = new CustomConstruct(this, 'CdkQue');
+    const queue = new CustomConstruct(this, 'CdkQue', {
+      queueName: 'Queue',
+      visibilityDuration: 500,
+    });
   }
 }
