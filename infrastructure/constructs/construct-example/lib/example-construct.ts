@@ -4,6 +4,7 @@ import * as sqs from 'aws-cdk-lib/aws-sqs';
 
 interface CustomConstructProps {
   visibilityDuration: number;
+  queueName: string;
 }
 
 export class CustomConstruct extends Construct {
@@ -15,6 +16,7 @@ export class CustomConstruct extends Construct {
     // example resource
     const queue = new sqs.Queue(this, 'CdkQueue', {
       visibilityTimeout: cdk.Duration.seconds(props.visibilityDuration),
+      queueName: props.queueName,
     });
   }
 }
