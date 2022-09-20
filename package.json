@@ -1,5 +1,6 @@
 {
   "name": "aws-cdk-template",
+  "description": "AWS CDK Template for speeding the develoment with AWS",
   "version": "root",
   "private": true,
   "scripts": {
