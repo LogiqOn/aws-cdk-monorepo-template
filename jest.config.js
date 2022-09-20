@@ -6,5 +6,6 @@ module.exports = {
   projects: [
     '<rootDir>/infrastructure/cdk',
     '<rootDir>/infrastructure/stacks/stack-example',
+    '<rootDir>/infrastructure/constructs/construct-example',
   ],
 };
