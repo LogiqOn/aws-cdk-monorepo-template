@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "Executing Husky pre-commit scripts .... \n"
-lint-staged
+yarn lint-staged
 yarn test -projects
