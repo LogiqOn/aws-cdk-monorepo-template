@@ -13,15 +13,13 @@
     "test:watch": "jest --watchAll",
     "ncu": "ncu --deep",
     "build": "lerna run build",
-    "watch": "cd infrastructure/cdk && yarn watch",
-    "synth": "cd infrastructure/cdk && yarn cdk synth",
+    "watch": "cd infrastructure && yarn watch",
+    "synth": "cd infrastructure && yarn cdk synth",
     "version:init:alpha": "lerna version 1.0.0-alpha.0 --yes"
   },
   "workspaces": [
     "packages/*",
-    "infrastructure/cdk",
-    "infrastructure/stacks/*",
-    "infrastructure/constructs/*",
+    "infrastructure/",
     "lambda/functions/*",
     "lambda/layers/*"
   ],
