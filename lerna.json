@@ -1,12 +1,9 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
   "version": "independent",
   "packages": [
     "packages/*",
-    "infrastructure/cdk",
-    "infrastructure/stacks/*",
-    "infrastructure/constructs/*",
+    "infrastructure/*",
     "lambda/functions/*",
     "lambda/layers/*"
   ],
